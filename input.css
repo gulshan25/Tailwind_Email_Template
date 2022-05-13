@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* .btn {
+    padding-top: 10px;
+} */
+
+.px-8 {
+    margin-left: 20px;
+}
