@@ -521,12 +521,8 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-top: 2.5rem;
 }
 
-.ml-10 {
-  margin-left: 2.5rem;
-}
-
-.ml-20 {
-  margin-left: 5rem;
+.block {
+  display: block;
 }
 
 .flex {
@@ -537,16 +533,8 @@ Ensure the default browser behavior of the `hidden` attribute.
   max-width: 24rem;
 }
 
-.max-w-md {
-  max-width: 28rem;
-}
-
 .items-center {
   align-items: center;
-}
-
-.justify-between {
-  justify-content: space-between;
 }
 
 .justify-around {
@@ -586,10 +574,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding: 2.5rem;
 }
 
-.p-20 {
-  padding: 5rem;
-}
-
 .px-7 {
   padding-left: 1.75rem;
   padding-right: 1.75rem;
@@ -610,34 +594,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-bottom: 2rem;
 }
 
-.px-8 {
-  padding-left: 2rem;
-  padding-right: 2rem;
-}
-
-.px-20 {
-  padding-left: 5rem;
-  padding-right: 5rem;
-}
-
 .pb-10 {
   padding-bottom: 2.5rem;
 }
 
-.pl-10 {
-  padding-left: 2.5rem;
-}
-
-.pl-20 {
-  padding-left: 5rem;
-}
-
 .text-center {
   text-align: center;
-}
-
-.text-right {
-  text-align: right;
 }
 
 .text-9xl {
@@ -658,21 +620,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 .text-5xl {
   font-size: 3rem;
   line-height: 1;
-}
-
-.text-7xl {
-  font-size: 4.5rem;
-  line-height: 1;
-}
-
-.text-8xl {
-  font-size: 6rem;
-  line-height: 1;
-}
-
-.text-4xl {
-  font-size: 2.25rem;
-  line-height: 2.5rem;
 }
 
 .text-lime-300 {
@@ -696,10 +643,4 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .px-8 {
   margin-left: 20px;
-}
-
-@media (min-width: 768px) {
-  .md\:shrink-0 {
-    flex-shrink: 0;
-  }
 }
